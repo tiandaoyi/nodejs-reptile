@@ -1,4 +1,11 @@
-> A Simple Baidu News Reptile
-```
-使用express模块化开发
-```
+> 这个项目是一些爬虫练习Demo
+
+目前已经有的demo是：
+1. 百度新闻的爬虫，以网页形式展现
+2. @TODU
+
+此项目中使用到了express模块化开发，不断更新中
+
+## 使用方式
+
+项目根目录下 node index.js

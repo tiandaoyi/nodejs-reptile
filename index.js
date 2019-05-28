@@ -7,6 +7,13 @@ let server = app.listen(3000, function() {
   console.log('Your App is running at', host, port);
 });
 
+/**
+ * 百度新闻网的新闻
+ */
 app.get('/news', async(req, res, next) => {
   res.send(getNews.hotNewsHtml);
 });
+
+/**
+ * 80s.tv中的电影 @TODO
+ */
